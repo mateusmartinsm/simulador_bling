@@ -15,8 +15,8 @@ menu_def = [
 def layout_home():
     return [
         [sg.Menu(menu_def)],
-        [sg.Text('Um preenchimento de tela abaixo.')],
-        [sg.Multiline(size=(60, 20))]
+        [sg.Text('Bem-vindo!.')],
+        [sg.Image('icons/bling_logo.png')]
     ]
 
 def layout_clientes_e_produtos():
