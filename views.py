@@ -57,7 +57,7 @@ def layout_produtos():
 def layout_cadastro_produto(dados_produto=None):
     if dados_produto is None:
         dados_produto = ['' for i in range(14)]
-        dados_produto[3], dados_produto[6:9], dados_produto[13] = 'Simples', [False for i in range(3)], 'shape.png'
+        dados_produto[3], dados_produto[6:9], dados_produto[13] = 'Simples', [False for i in range(3)], 'icons/shape.png'
 
     tab_dados_gerais = [
         [sg.Text('Código (SKU)')], 
